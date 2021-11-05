@@ -1,0 +1,98 @@
+
+body{
+	background: #e7e7e7;
+}
+
+
+
+
+.range
+{
+	width: 100%;
+	background:lightgrey;
+	border: green;
+	border-radius: 60px;
+}
+
+.inrange1
+{
+	background: #13ad66;
+	border-radius: 60px;
+}
+
+.inrange2
+{
+	text-align: center;
+	color: white;
+}
+
+.sides b
+{
+	margin: 10px;
+	font-size: 23px;
+}
+
+i{
+	color: #13ad66;
+}
+
+.main{
+	display: flex;
+}
+
+.leftm{
+	flex: 30%;
+	background: white;
+	padding: 10px;
+	margin: 5px;
+}
+
+.right
+{
+	flex: 70%;
+}
+
+.head{
+	 background-image: url("myphoto.JPG");
+	 background-repeat: no-repeat;
+	 height: 400px;
+	 width: 100%;
+	 display: flex;
+	 align-items: flex-end;
+}
+
+.inr{
+
+	background: white;
+	padding: 10px;
+	margin: 5px;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background:#13ad66;
+
+
+}
+
+
+#t{
+	color: black;
+}
+
+@media screen and (max-width:  1000px)
+{
+	.main
+	{
+		flex-wrap: wrap;
+	}
+}
+
+
+
+
+
+
